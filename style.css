@@ -15,7 +15,7 @@ header div{
     text-align: right;
     font-size: 80px;
 }
-main{
+.columns{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: space-between;
@@ -26,6 +26,21 @@ main{
     width: 40%;
     margin: 5px auto;
     font-size: 25px;
+
+}
+.parralax p{
+padding-top: 200px;
+    height: 500px;
+    width: 100%;
+    font-size: 100px;
+    font-family: cursive;
+    text-align: center;
+}
+    .parralax{
+    height: 500px;
+    width: 1200px;
+    background-image: url("http://static.prsa.pl/images/971936a5-1323-4669-baf1-52eaf2341a24.jpg");
+    background-attachment: fixed;
 
 }
 footer{
