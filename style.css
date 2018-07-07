@@ -35,3 +35,35 @@ footer{
     background-color: #888;
 
 }
+.cookies-bar
+{
+    font-size: 13px;
+    font-family: Verdana;
+    position: fixed;
+    bottom: 0;
+    border-top-style: solid;
+    border-top-color: lightcoral;
+    border-width: 1px;
+    width: 100%;
+}
+
+.cookies-bar__content
+{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.cookies-bar__img
+{
+    height: 60px;
+    width: 60px;
+}
+
+.cookie-bar__p
+{
+    margin: auto 0;
+}
